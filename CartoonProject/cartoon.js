@@ -1,4 +1,4 @@
-function draw() {
+document.addEventListener('DOMContentLoaded', function draw() {
   var canvas = document.getElementById("cartoonCanvas");
   var ctx = canvas.getContext("2d");
 
@@ -76,6 +76,4 @@ function draw() {
   ctx.textAlign = "center";
   ctx.fillText("Night", canvas.width / 2, canvas.height / 2);
 
-}
-
-document.addEventListener('DOMContentLoaded', draw);
+});

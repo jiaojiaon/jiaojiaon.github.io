@@ -12,18 +12,19 @@
     <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
 
     <script>
+        //JSON data
         var xValues = ["Strawbeery", "Peach", "Banana", "Pear", "Grape"];
         var yValues = [15, 10, 25, 10, 20];
         var barColors = ["red", "orange", "yellow", "green", "purple"];
 
-
+        //insert a chart in bar type
         new Chart("myChart", {
             type: "bar",
             data: {
-                labels: xValues,
+                labels: xValues, //make chart follow assign xValues 
                 datasets: [{
-                    backgroundColor: barColors,
-                    data: yValues
+                    backgroundColor: barColors,//make chart follow assign barColors 
+                    data: yValues //make chart follow yValues 
                 }]
             },
             options: {
@@ -31,7 +32,7 @@
                 scales: {
                     yAxes: [{
                         ticks: {
-                            beginAtZero: true
+                            beginAtZero: true // make chart start with 0 in y-axes
                         }
                     }],
                 }

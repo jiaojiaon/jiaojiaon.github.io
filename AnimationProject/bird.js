@@ -9,167 +9,167 @@ bird={
 			"frame": {
 				"x": 1,
 				"y": 1,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"sourceSize": {
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			}
 		},
 		{
 			"filename": "tile001.png",
 			"frame": {
-				"x": 503,
+				"x": 183,
 				"y": 1,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"sourceSize": {
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			}
 		},
 		{
 			"filename": "tile002.png",
 			"frame": {
 				"x": 1,
-				"y": 503,
-				"w": 500,
-				"h": 500
+				"y": 183,
+				"w": 180,
+				"h": 180
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"sourceSize": {
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			}
 		},
 		{
 			"filename": "tile003.png",
 			"frame": {
-				"x": 503,
-				"y": 503,
-				"w": 500,
-				"h": 500
+				"x": 183,
+				"y": 183,
+				"w": 180,
+				"h": 180
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"sourceSize": {
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			}
 		},
 		{
 			"filename": "tile004.png",
 			"frame": {
-				"x": 1005,
+				"x": 365,
 				"y": 1,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"sourceSize": {
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			}
 		},
 		{
 			"filename": "tile005.png",
 			"frame": {
-				"x": 1005,
-				"y": 503,
-				"w": 500,
-				"h": 500
+				"x": 365,
+				"y": 183,
+				"w": 180,
+				"h": 180
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"sourceSize": {
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			}
 		},
 		{
 			"filename": "tile006.png",
 			"frame": {
 				"x": 1,
-				"y": 1005,
-				"w": 500,
-				"h": 500
+				"y": 365,
+				"w": 180,
+				"h": 180
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"sourceSize": {
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			}
 		},
 		{
 			"filename": "tile007.png",
 			"frame": {
-				"x": 503,
-				"y": 1005,
-				"w": 500,
-				"h": 500
+				"x": 183,
+				"y": 365,
+				"w": 180,
+				"h": 180
 			},
 			"rotated": false,
 			"trimmed": false,
 			"spriteSourceSize": {
 				"x": 0,
 				"y": 0,
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			},
 			"sourceSize": {
-				"w": 500,
-				"h": 500
+				"w": 180,
+				"h": 180
 			}
 		}
 	],
@@ -179,8 +179,8 @@ bird={
 		"image": "spritesheet.png",
 		"format": "RGBA8888",
 		"size": {
-			"w": 1506,
-			"h": 1506
+			"w": 546,
+			"h": 546
 		},
 		"scale": "1"
 	}

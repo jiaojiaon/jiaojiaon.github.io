@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Text Form Project</title>
+</head>
+
+<body>
+  <h3> <a href="https://jiaojiaon.github.io/"> Main Page </a></h3>
+  <h1>Text Form Project</h1>
+  <form>
+    <div>
+        <!-- Input name using a text field   -->
+        <label>Name: </label>
+        <input  id = "name" type = "text" name = "name" placeholder="Enter your name"><br><br>
+        <!-- Have them select a color, from the color picker, to use for their background color -->
+        <label>Pick a background color:</label>
+        <input id = "backgroundColor" type = "color" name = "backgroundColor"><br><br>
+        <!-- Have them select a color, from the color picker, to use for their text color  -->
+        <label>Pick a text color:</label>
+        <input id = "textColor" type = "color" name = "textcolor"><br><br>
+        <!-- Use a slider to set the size of the text (from 12 to 48 px)    -->
+        <label> Set the size of the text</label>
+        <input id = "size" type = "range" name = "size" min = "12" max = "48"><br><br>
+        <!-- Have 3 radio button choices, for the fonts to allow for different fonts to display the text  -->
+        <p>Choose your front text</p>
+          <input type="radio" id="Arial" name="fronttext" value="Arial">
+          <label for="Arial">Arial</label><br>
+          <input type="radio" id="Verdana" name="fronttext" value="Verdana">
+          <label for="Verdana">Verdana</label><br>
+          <input type="radio" id="Tahoma" name="fronttext" value="Tahoma">
+          <label for="Tahoma">Tahoma</label><br><br>
+        <!-- Have a reset button to reset the page to their default values -->
+        <button type="button" onclick="reset()">Reset</button>	
+    </div>
+    </form>
+  <script src="textForm.js"></script>
+</body>
+
+</html>

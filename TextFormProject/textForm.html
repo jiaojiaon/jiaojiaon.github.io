@@ -20,15 +20,15 @@
         <input id = "textColor" type = "color" name = "textcolor"><br><br>
         <!-- Use a slider to set the size of the text (from 12 to 48 px)    -->
         <label> Set the size of the text</label>
-        <input id = "size" type = "range" name = "size" min = "12" max = "48"><br><br>
+        <input id = "size" type = "range" name = "size" min = "12" max = "48" value = "12" onchange = "changesize()"><br><br>
         <!-- Have 3 radio button choices, for the fonts to allow for different fonts to display the text  -->
         <p>Choose your front text</p>
-          <input type="radio" id="Arial" name="fronttext" value="Arial">
-          <label for="Arial">Arial</label><br>
-          <input type="radio" id="Verdana" name="fronttext" value="Verdana">
-          <label for="Verdana">Verdana</label><br>
-          <input type="radio" id="Tahoma" name="fronttext" value="Tahoma">
-          <label for="Tahoma">Tahoma</label><br><br>
+         <input type="radio" id="Arial" name="fronttext" value="Arial" onclick = "changefront(this)">
+         <label for="Arial">Arial</label><br>
+         <input type="radio" id="Verdana" name="fronttext" value="Verdana" onclick = "changefront(this)" >
+         <label for="Verdana">Verdana</label><br>
+         <input type="radio" id="Tahoma" name="fronttext" value="Tahoma" onclick = "changefront(this)">
+         <label for="Tahoma">Tahoma</label><br><br>
         <!-- Have a reset button to reset the page to their default values -->
         <button type="button" onclick="reset()">Reset</button>	
     </div>

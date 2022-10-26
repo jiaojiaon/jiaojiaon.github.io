@@ -1,9 +1,3 @@
-//const name = document.querySelector('#name');
-//const backgroundColor = document.querySelector('#backgroundColor');
-//const textColor = document.querySelector('#textColor');
-//const size = document.querySelector('#size');
-//const reset = document.querySelector('#reset')
-
 //function for reset 
 function reset(){
     const resetname = document.getElementById('name');
@@ -46,11 +40,11 @@ const defaultBackgroundColor = "white";
 window.addEventListener("load", startup, false);
 
 function startup() {
-    textColor = document.querySelector("#backgroundColor");
-    textColor.value = defaultBackgroundColor;
-    textColor.addEventListener("input", updateFirst, false);
-    textColor.addEventListener("change", updateAll, false);
-    textColor.select();
+    backgroundColor = document.querySelector("#backgroundColor");
+    backgroundColor.value = defaultBackgroundColor;
+    backgroundColor.addEventListener("input", updateFirst, false);
+    backgroundColor.addEventListener("change", updateAll, false);
+    backgroundColor.select();
 }
 
 function updateFirst(event) {

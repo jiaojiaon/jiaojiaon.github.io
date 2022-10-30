@@ -5,7 +5,7 @@ new Chart(document.getElementById("bar-chart").getContext('2d'), {
       labels: ["MANHATTAN", "BROOKLYN", "QUEENS", "BRONX", "STATEN ISLAND"],
       datasets: [
         {
-          label: "DOB Permit Issuance",
+          label: "Number of DOB Permit Issuance in each boroughs",
           backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
           data: [1609260,924836,822951,335013,227701]
         }
@@ -15,7 +15,7 @@ new Chart(document.getElementById("bar-chart").getContext('2d'), {
       legend: { display: false },
       title: {
         display: true,
-        text: 'Number of DOB Permit Issuance in each boroughs'
+        text: 'Jiao Jiao Ding'
       }
     }
 });
@@ -26,7 +26,7 @@ new Chart(document.getElementById("doughnut-chart").getContext('2d'), {
         labels: ["MANHATTAN", "BROOKLYN", "QUEENS", "BRONX", "STATEN ISLAND"],
       datasets: [
         {
-          label: "DOB Permit Issuance",
+          label: "Number of DOB Permit Issuance in each boroughs",
           backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
           data: [1609260,924836,822951,335013,227701]
         }
@@ -35,7 +35,7 @@ new Chart(document.getElementById("doughnut-chart").getContext('2d'), {
     options: {
       title: {
         display: true,
-        text: 'Number of DOB Permit Issuance in each boroughs'
+        text: 'Jiao Jiao Ding'
       }
     }
 });

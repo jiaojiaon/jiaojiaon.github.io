@@ -1,5 +1,5 @@
 // Bar chart
-new Chart(document.getElementById("bar-chart"), {
+new Chart(document.getElementById("bar-chart").getContext('2d'), {
     type: 'bar',
     data: {
       labels: ["MANHATTAN", "BROOKLYN", "QUEENS", "BRONX", "STATEN ISLAND"],
@@ -20,7 +20,7 @@ new Chart(document.getElementById("bar-chart"), {
     }
 });
 //Doughnut Chart 
-new Chart(document.getElementById("doughnut-chart"), {
+new Chart(document.getElementById("doughnut-chart").getContext('2d'), {
     type: 'doughnut',
     data: {
         labels: ["MANHATTAN", "BROOKLYN", "QUEENS", "BRONX", "STATEN ISLAND"],

@@ -4,23 +4,24 @@
   <title>Text Form Project</title>
 </head>
 
-<body>
-  <h3> <a href="https://jiaojiaon.github.io/"> Main Page </a></h3>
+<h3> <a href="https://jiaojiaon.github.io/"> Main Page </a></h3>
   <h1>Text Form Project</h1>
   <form>
-    <div>
         <!-- Input name using a text field   -->
         <label>Name: </label>
         <input  id = "name" type = "text" name = "name" placeholder="Enter your name"><br><br>
+    
         <!-- Have them select a color, from the color picker, to use for their background color -->
         <label>Pick a background color:</label>
-        <input id = "backgroundColor" type = "color" name = "backgroundColor"><br><br>
+        <input id = "backgroundColor" type = "color" name = "backgroundColor" oninput="changeBgColor()"><br><br>
+    
         <!-- Have them select a color, from the color picker, to use for their text color  -->
         <label>Pick a text color:</label>
-        <input id = "textColor" type = "color" name = "textcolor"><br><br>
+        <input id = "textcolor" type = "color" name = "textcolor" oninput="changeTColor()"><br><br>
         <!-- Use a slider to set the size of the text (from 12 to 48 px)    -->
         <label> Set the size of the text</label>
-        <input id = "size" type = "range" name = "size" min = "12" max = "48" value = "12" onchange = "changesize()"><br><br>
+        <input id = "size" type = "range" name = "size" min = "12" max = "48" value = "12" oninput = "changesize()"><br><br>
+    
         <!-- Have 3 radio button choices, for the fonts to allow for different fonts to display the text  -->
         <p>Choose your front text</p>
          <input type="radio" id="Arial" name="fronttext" value="Arial" onclick = "changefront(this)">
@@ -31,7 +32,6 @@
          <label for="Tahoma">Tahoma</label><br><br>
         <!-- Have a reset button to reset the page to their default values -->
         <button type="submit" onclick="reset()">Reset</button>	
-    </div>
     </form>
   <script src="textForm.js"></script>
 </body>

@@ -21,20 +21,6 @@ function drawCircle() {
 }
 
 var button = document.getElementById("button");
-// Function for change speak button and stop button for voice recogition 
-function speak() {
-    var button = document.getElementById("button");
-    if (button.innerHTML == "Speak") {
-        speak.play();
-        button.innerHTML = "Stop";
-        recognition.start();
-    } else {
-        stop.play();
-        button.innerHTML = "Speak";
-        recognition.stop();
-    }
-}
-
 var recognition = new webkitSpeechRecognition();
     recognition.continuous = false;
     recognition.interimResults = true;
@@ -52,7 +38,20 @@ var recognition = new webkitSpeechRecognition();
             }
         }
     }
-
+// Function for change speak button and stop button for voice recogition 
+function speak() {
+    var button = document.getElementById("button");
+    if (button.innerHTML == "Speak") {
+        speak.play();
+        button.innerHTML = "Stop";
+        recognition.start();
+    }else {
+        stop.play();
+        button.innerHTML = "Speak";
+        recognition.stop();
+    }
+}
+// Function for response after recognize
 function Response(){
     var key = request.split(" ")[0];
     var option = request.split(" ")[1];

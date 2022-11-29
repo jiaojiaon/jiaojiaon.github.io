@@ -21,7 +21,6 @@ function drawCircle() {
 }
 
 var button = document.getElementById("button");
-
 // Function for change speak button and stop button for voice recogition 
 function speak() {
     var button = document.getElementById("button");
@@ -35,6 +34,7 @@ function speak() {
         recognition.stop();
     }
 }
+
 var recognition = new webkitSpeechRecognition();
     recognition.continuous = false;
     recognition.interimResults = true;

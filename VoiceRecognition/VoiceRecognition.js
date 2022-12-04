@@ -19,17 +19,14 @@ function drawCircle() {
     ctx.fillStyle = "black";
     ctx.fill();
 }
-
 var button = document.getElementById("button");
 // Function for change speak button and stop button for voice recogition 
 function speak() {
     var button = document.getElementById("button");
     if (button.innerHTML == "Speak") {
-        speak.play();
         button.innerHTML = "Stop";
         recognition.start();
     }else {
-        stop.play();
         button.innerHTML = "Speak";
         recognition.stop();
     }

@@ -14,9 +14,9 @@ function drawCircle() {
     ctx.fill();
 
     ctx.beginPath();
-    ctx.arc(canvas.width * 0.5, canvas.height * 0.5, 50 / 2, 0, 2 * Math.PI);
+    ctx.arc(canvas.width * 0.5, canvas.height * 0.5, diameter / 2, 0, 2 * Math.PI);
     ctx.stroke();
-    ctx.fillStyle = "black";
+    ctx.fillStyle = cirColor;
     ctx.fill();
 }
 var button = document.getElementById("button");
@@ -63,7 +63,7 @@ function Response(){
             var msg = new SpeechSynthesisUtterance("Try again, did not recognize" );
             setTimeout(function () { window.speechSynthesis.speak(msg); }, 1000);
         }
-    }else if(key.localeCompare("Size") == 0){
+    }else if(key.localeCompare("size") == 0){
         if (!isNaN(option)) {
             diameter = parseInt(option);
             if (diameter > 300) {

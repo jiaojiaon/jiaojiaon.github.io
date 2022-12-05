@@ -41,8 +41,7 @@ var recognition = new webkitSpeechRecognition();
         var button = document.getElementById("button");
         for (var i = e.resultIndex; i < e.results.length; ++i) {
             if (e.results[i].isFinal) {
-                button.value += e.results[i][0].transcript;
-                stop.play();
+                request = e.results[i][0].transcript;
                 button.innerHTML = "Speak";
                 recognition.stop();
                 Response();
@@ -55,8 +54,8 @@ function Response(){
     var option = request.split(" ")[1];
 
     if(key.localeCompare("color") == 0){
-        cirColor = option;
         if(!isNaN(color.match(/option/))){
+            cirColor = option;
             var msg = new SpeechSynthesisUtterance("Change color to " + request);
             setTimeout(function () { window.speechSynthesis.speak(msg); }, 1000);
             drawCircle();
